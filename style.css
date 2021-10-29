@@ -1,0 +1,159 @@
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    column-gap: 40px; /* Should be removed. Only for demonstration */
+    box-sizing: border-box;
+    border: black;
+    border-width: 5px;
+  }
+  
+  div.header h2{
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Container 1 Form Elements - NAME  */
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Container 1 Form Elements - EMAIL  */
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  /* Container 1 Form Elements - SUBMIT BUTTON  */
+  input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+
+  /* Container 1 - TEXTAREA */
+  textarea{
+    border:1px solid #999999;
+    width:100%;
+    height: 300px;
+    resize: none;
+  }
+
+  .textareacontainer{
+    display: block;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Container 2 - SEARCH BAR */
+  form.example input[type=text] {
+    padding: 14px 20px;
+    margin: 24px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 90%;
+    float: left;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 15px 20px;
+    margin: 24px 0;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #45a049;
+  }
+  
+
+  /* FLIP CARDS COLUMNS */
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+
+  /* FILP CARDS */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 24px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /* @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */
