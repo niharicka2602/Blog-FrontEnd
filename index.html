@@ -74,8 +74,43 @@
 
 
         <!-- CONTAINER 3 -->
-        <div class="column">          
-          <p>EXTRA COLUMN</p>
+        <div class="column"> 
+          <!-- BINARY SEARCH-->
+          <div>
+            <form action="./column3/binarysearch.py" method="post">              
+              <input type="radio" id="binarysearch" name="binarysearch">
+              <label for="binarysearch">Binary Search</label><br><br>              
+              <input type="text" id="enterarray" name="enterarray" placeholder="Enter The Array">
+              <input type="text" id="sortedarray" name="sortedarray" placeholder="Sorted Array">
+              <input type="text" id="pivot" name="pivot" placeholder="Enter The Element To Be Searched">
+              <input type="button" value="Submit">
+              <output>OUTPUT</output>              
+            </form>
+          </div>
+
+          <!-- FIBONACCI SEQUENCE -->
+          <div>
+            <form action="./column3/Fibonnaci Series.py">    
+              <input type="radio" id="fibonacci" name="fibonacci">
+              <label for="fibonacci">Fibonacci Sequence</label><br><br>
+              <input type="text" id="entern" name="entern" placeholder="Enter The Value Of 'n' ">
+              <input type="button" value="Submit">
+              <output>OUTPUT</output>            
+            </form>
+          </div>
+
+          <!-- 0/1 KNAPSCAK -->
+          <div>
+            <form action="./column3/Knapsack.py">    
+              <input type="radio" id="knapsack" name="knapsack">            
+              <label for="knapsack">0/1 KnapSack</label><br><br>
+              <input type="text" id="fname" name="entervalue" placeholder="Enter The Values">
+              <input type="text" id="fname" name="enterweight" placeholder="Enter Their Respective Weights">
+              <input type="text" id="fname" name="entercapacity" placeholder="Enter The Capacity">
+              <input type="button" value="Submit">
+              <output>OUTPUT</output>              
+            </form>
+          </div>          
         </div>
     </div>
 

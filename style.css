@@ -18,13 +18,7 @@ div {
     font-weight: bold;
     text-align: center;
   }
-
-  /* BORDER LINES */
-  /* .border1 {
-    border-left: 6px solid green;
-    height: 500px;
-  } */
-
+  
 
   /* Clear floats after the columns */
   .row:after {
